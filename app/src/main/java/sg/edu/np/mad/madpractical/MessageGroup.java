@@ -21,6 +21,8 @@ public class MessageGroup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 TextView grp1txt = findViewById(R.id.group1);
+                ImageView imageView = findViewById(R.id.bigandroidlogo);
+                imageView.setVisibility(View.INVISIBLE);
                 grp1txt.setText("Group 1");
             }
         });
